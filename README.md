@@ -89,9 +89,6 @@ Software Updates: Regularly update antivirus and security software to detect new
 
 This project highlights the vulnerabilities associated with peripheral interfaces like USB devices. By understanding and demonstrating these threats, we emphasize the importance of user education and robust security measures.
 
-#HOW TO RUN:
-
-Absolutely! Here’s the professional version of the **HOW TO RUN** section for your README.md file:
 
 ---
 

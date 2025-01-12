@@ -122,7 +122,7 @@ Set objShell = Nothing
 2. **Create Build in AsyncRAT:**
    - Right-click and select "Create Build."
    - Enter the desired port and IP address of your network.
-   - Click on "Finish" to generate the client executable.
+   - Click on "Build" to generate the client executable.
 
 3. **Prepare the USB Drive:**
    - Copy the generated client executable to your chosen USB drive.

@@ -56,7 +56,7 @@ Configure the RAT server and generate the payload executable.
 
 Ensure the payload is accessible via the internet or a local network.
 
-4. **Execution**
+4.  **Execution**
    
 4.1 **Attack Scenario:**
 
@@ -70,18 +70,21 @@ The attacker gains remote access to the victim's computer.
 
 Demonstrate the capabilities of the RAT (e.g., capturing screenshots, logging keystrokes).
 
-**Prevention and Mitigation**
+5.  **Prevention and Mitigation:**
+
 User Education
 Educate users about the risks of connecting unknown USB devices.
 
 Promote best practices for handling USB devices.
 
-**Technical Solutions**
+6. **Technical Solutions:**
+
 USB Restrictions: Implement group policies or endpoint protection solutions to restrict USB access.
 
 USB Security Solutions: Use security tools that can detect and block unauthorized USB devices.
 
 Software Updates: Regularly update antivirus and security software to detect new threats.
 
-**Conclusion**
+7. **Conclusion:**
+
 This project highlights the vulnerabilities associated with peripheral interfaces like USB devices. By understanding and demonstrating these threats, we emphasize the importance of user education and robust security measures.

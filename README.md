@@ -57,6 +57,7 @@ Configure the RAT server and generate the payload executable.
 Ensure the payload is accessible via the internet or a local network.
 
 4. **Execution**
+   
 4.1 **Attack Scenario:**
 
 The attacker plugs the RubberDucky into the victim's computer.

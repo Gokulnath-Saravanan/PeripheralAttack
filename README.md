@@ -55,6 +55,7 @@ Choose a RAT software (e.g., Metasploit, njRAT).
 Configure the RAT server and generate the payload executable.
 
 Ensure the payload is accessible via the internet or a local network.
+
 4. **Execution**
    
 4.1 **Attack Scenario:**

